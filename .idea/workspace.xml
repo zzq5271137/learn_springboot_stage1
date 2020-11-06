@@ -27,6 +27,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/config/JdbcConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/web/MyController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/config/JdbcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/web/MyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +262,7 @@
       <workItem from="1598786801334" duration="1729000" />
       <workItem from="1598953362007" duration="1417000" />
       <workItem from="1604578959525" duration="1456000" />
-      <workItem from="1604627955637" duration="6548000" />
+      <workItem from="1604627955637" duration="6557000" />
     </task>
     <servers />
   </component>
