@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73f77a77-43d1-4a37-a6fa-e52872452efb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/web/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/config/JdbcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/web/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/config/JdbcProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/config/JdbcProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycomp/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycomp/config/JdbcConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/dev/Maven/apache-maven-3.6.3" />
+        <option name="mavenHome" value="C:\dev\Maven\apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -111,17 +109,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Learn_SpringBoot_stage1" />
       <extension name="coverage">
@@ -246,6 +233,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -262,7 +252,9 @@
       <workItem from="1598786801334" duration="1729000" />
       <workItem from="1598953362007" duration="1417000" />
       <workItem from="1604578959525" duration="1456000" />
-      <workItem from="1604627955637" duration="6557000" />
+      <workItem from="1604627955637" duration="7477000" />
+      <workItem from="1604642564036" duration="1108000" />
+      <workItem from="1604656438150" duration="2253000" />
     </task>
     <servers />
   </component>
@@ -279,6 +271,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1604629017035">
@@ -289,45 +282,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="380" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604632133077" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.1.bottom" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.1.bottom" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.1.center" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.1.center" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.1.left" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.1.left" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
-    <state width="1877" height="268" key="GridCell.Tab.1.right" timestamp="1604633647265">
+    <state width="1877" height="464" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
+    <state width="1877" height="464" key="GridCell.Tab.1.right" timestamp="1604658669078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604633647265" />
+    <state width="1877" height="464" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604658669078" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1604632111294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604632111294" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1604632606988">
+    <state x="387" y="155" key="SettingsEditor" timestamp="1604656661298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604632606988" />
+    <state x="387" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604656661298" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604658502372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604658502372" />
   </component>
 </project>
